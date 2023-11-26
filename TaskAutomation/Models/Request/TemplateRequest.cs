@@ -2,7 +2,7 @@
 
 namespace TaskAutomation.Models.Request;
 
-public class TemplateRequest : BaseRequestModel
+public class TemplateRequest : BaseModel
 {
     
 }

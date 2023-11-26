@@ -2,7 +2,7 @@
 
 namespace TaskAutomation.Models.Request;
 
-public class TemplateAnswerRequest : BaseRequestModel
+public class TemplateAnswerRequest : BaseModel
 {
     public string Name { get; set; } = null!;
     public ActionQuestionAttributeRequest? Question { get; set; }

@@ -2,7 +2,7 @@
 
 namespace TaskAutomation.Models.Request;
 
-public class ActionStatusRequest : BaseRequestModel
+public class ActionStatusRequest : BaseModel
 {
     public string Name { get; set; } = null!;
 }

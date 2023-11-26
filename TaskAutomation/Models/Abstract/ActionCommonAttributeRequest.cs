@@ -1,6 +1,6 @@
 ﻿namespace TaskAutomation.Models.Abstract;
 
-public class ActionCommonAttributeRequest : BaseRequestModel
+public class ActionCommonAttributeRequest : BaseModel
 {
     public string? Name { get; set; }
     public string? Description { get; set; }

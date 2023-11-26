@@ -2,7 +2,7 @@
 
 namespace TaskAutomation.Models.Request;
 
-public class TemplatePointRequest : BaseRequestModel
+public class TemplatePointRequest : BaseModel
 {
     public string? Name { get; set; }
     public double Value { get; set; }

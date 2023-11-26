@@ -2,7 +2,7 @@
 
 namespace TaskAutomation.Models.Request;
 
-public class ActionRequest : BaseRequestModel
+public class ActionRequest : BaseModel
 {
     public string? Name { get; set; }
     public DateTime? StartDate { get; set; }

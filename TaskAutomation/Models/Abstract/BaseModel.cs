@@ -1,6 +1,6 @@
 ﻿namespace TaskAutomation.Models.Abstract;
 
-public class BaseRequestModel
+public class BaseModel
 {
     public Guid Id { get; set; }
 }

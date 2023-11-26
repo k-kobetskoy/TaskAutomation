@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Folder Include="Models\Abstract\" />
+    <Folder Include="Mapping\" />
   </ItemGroup>
 
   <ItemGroup>
